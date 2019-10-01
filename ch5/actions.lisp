@@ -20,4 +20,4 @@
         (t '(you cannot get that.))))
 
 (defun inventory ()
-  (cons 'items- (object-at 'body *objects* *object-locations*)))
+  (cons 'items- (objects-at 'body *objects* *object-locations*)))
